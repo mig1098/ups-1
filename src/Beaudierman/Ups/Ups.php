@@ -311,6 +311,18 @@ class Ups {
 			case '65':
 				return 'UPS Saver';
 				break;
+            case '92':
+                return 'UPS SurePost (USPS) < 1lb';
+                break;
+            case '93':
+                return 'UPS SurePost (USPS) > 1lb';
+                break;
+            case '94':
+                return 'UPS SurePost (USPS) BPM';
+                break;
+            case '95':
+                return 'UPS SurePost (USPS) Media';
+                break;
 			default:
 				return false;
 				break;
